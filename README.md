@@ -6,4 +6,6 @@
 - `$ ./qemu-run.sh ./android.img`
 - `$ ./qemu-run.sh ./android.img -vnc localhost:0` -- run with VNC listener on for local incoming connections on 5900 port
 
+No root permissions should be required for running any of the scripts. If this is not true in some cases, please submit a fix with a Pull Request.
+
 [QEMU]: https://www.qemu.org/
