@@ -13,5 +13,6 @@ qemu-system-x86_64 -enable-kvm -vga std \
                    -netdev user,id=net0 \
                    -hda "$HDA_IMAGE" \
                    -monitor stdio \
+                   -device VGA,vgamem_mb=256 \
                    "$@"
 
