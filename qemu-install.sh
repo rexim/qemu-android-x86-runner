@@ -11,4 +11,5 @@ qemu-system-x86_64 -enable-kvm -vga std \
                    -cdrom "$1" \
                    -hda "$2" \
                    -boot d \
+                   -device VGA,vgamem_mb=256 \
                    -monitor stdio
